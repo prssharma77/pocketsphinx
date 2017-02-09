@@ -1,12 +1,12 @@
-f1 = open('path','r')  #insert mitra's dictionary here
-f2 = open('path','r')  #insert en-in dictionary here
-f3 = open('path','a')  #insert new blank dictionary here
+f1 = open('path1','r')  #insert mitra's dictionary here
+f2 = open('path2','r')  #insert en-in dictionary here
+f3 = open('path3','a')  #insert new blank dictionary here
 flag=0
 
 line3 = [line7 for line7 in f2]
 
 f2.close()
-f2 = open('/users/parasmanisharma/desktop/dic2.dic','r')
+f2 = open('path2','r')
 
 wordlist1 = [line1.split(None, 1)[0] for line1 in f2]
 
