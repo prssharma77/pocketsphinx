@@ -18,8 +18,9 @@ for x in range(0,len(wordlist)-1):
             break
         if wordlist[x].lower() == wordlist1[y]:
             f3.write(line3[y])
-            break
             flag=y
+            break
+            
             
 f1.close()
 f2.close()
